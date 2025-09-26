@@ -1,14 +1,22 @@
+📚 README.md (Documentation)
+
 Tasker CLI 🚀
 
 A simple, fast, and typed command-line application for managing your daily to-do list, using SQLite for persistent storage.
 
-Features
+✨ Features
 
-    ✅ Simple: Intuitive command structure.
+    Typed CLI: Uses Python type hints (via Typer and Pydantic) for robust command arguments and data models.
 
-    💾 Persistent: All data is saved reliably to an SQLite file.
+    Persistent Storage: Tasks are reliably saved to a single tasks.db file using SQLite.
 
-    ✨ Elegant: Uses rich for beautiful, colored terminal output.
+    Rich Output: Beautiful, readable terminal output powered by the rich library.
+
+    Core CRUD: Easily Create, Read (List), Update (Complete), and Delete tasks.
+
+
+
+    
 
 Installation
 
