@@ -18,7 +18,7 @@ A simple, fast, and typed command-line application for managing your daily to-do
 
     
 
-Installation
+## Installation
 
     Clone the Repository:
     Bash
@@ -26,7 +26,7 @@ Installation
 git clone https://github.com/YOUR_USERNAME/tasker-cli.git
 cd tasker-cli
 
-Setup Environment:
+## Setup Environment:
 Bash
 
     python -m venv venv
@@ -35,14 +35,14 @@ Bash
 
     (Note: You would need to create a requirements.txt listing typer, pydantic, rich)
 
-Usage
+## Usage
 
 The main command is tasker. Run with --help for details:
 Bash
 
 python tasker.py --help
 
-Examples
+## Examples
 
 Action	Command
 Add a high-priority task	python tasker.py add "Finish Tasker CLI" -p 1
@@ -50,7 +50,7 @@ List all tasks	python tasker.py list
 Complete task ID 5	python tasker.py complete 5
 
 
-🌐 Publishing to GitHub (Explanation)
+## 🌐 Publishing to GitHub (Explanation)
 
 To make your project available to the world and manage its versions, follow these steps:
 
@@ -103,7 +103,5 @@ Bash
 
     git push -u origin main
     # Use 'master' instead of 'main' if your local branch is named 'master'
-
-Your code, README.md, and DESIGN.md are now live on GitHub! Subsequent changes can be pushed with git add ., git commit -m "commit message", and git push.
 
 
